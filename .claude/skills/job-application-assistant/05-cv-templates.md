@@ -129,12 +129,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Data/Backend Engineering roles:**
+> Software engineer with 4+ years in fintech (JPMorgan Chase, State Street) building ETL/ELT pipelines and cloud data platforms: Python/PySpark data processing, AWS Glue/Athena/Step Functions, CockroachDB-to-data-lake-to-Snowflake ingestion, and automated reporting workflows, backed by a distributed-systems background in Kafka/Flink and Spring Boot. Also ships end-to-end personal products, including a live multiplayer game and several Claude-powered automation agents.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI/Agentic Engineering roles:**
+> Software Engineer with 4+ years building production backend systems in fintech, plus a growing portfolio of shipped LLM-powered agents and applications. Experience designing agentic systems with tool use, multi-step reasoning, and self-correction loops using the Anthropic Claude API and Model Context Protocol (MCP). Combines enterprise-grade backend engineering (Java, Spring Boot, distributed data systems) with hands-on experience building, evaluating, and deploying AI-driven products end-to-end.
+
+**For Forward-Deployed / Client-Facing Engineering roles:**
+> Software Engineer with 4+ years shipping production systems in fintech, and a track record of independently building and launching full-stack products end-to-end from architecture through deployment to real users. Combines enterprise infrastructure experience (AWS, Kubernetes, Terraform) with hands-on ownership of self-directed, ambiguous projects, including a live multiplayer web platform and multiple deployed AI agents. Comfortable translating open-ended requirements into working software quickly, with minimal handholding.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

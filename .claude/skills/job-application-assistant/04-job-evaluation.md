@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Java, Python, Spring Boot, AWS (Glue, Step Functions, Lambda, ECS, EKS, Athena), Kafka/Flink streaming, PySpark/ETL data engineering, distributed backend systems, microservices, Anthropic Claude API / agentic systems / MCP
+**Moderate match areas:** Kubernetes/Terraform infrastructure, Snowflake/data-platform architecture, DevOps & CI/CD tooling (Jenkins, Spinnaker), full-stack/frontend (Node.js, vanilla JS via WordForge)
+**Weak match areas:** Formal data-science/ML modeling roles (has applied-ML project experience but not a primary job function), people management/team lead, enterprise pre-sales or consulting
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Backend/software engineering in fintech (JPMorgan Chase, State Street), data engineering/ETL pipelines, distributed streaming systems, cloud-native platform buildouts
+**Moderate:** AI/agentic engineering (strong project portfolio — Claude API, MCP, agent orchestration — but not yet a formal job title), forward-deployed/client-facing engineering (framed and demonstrated via self-directed ownership, but not an official past job title)
+**Entry-level:** Formal ML/data-science roles, people-management or team-lead roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,9 +91,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+No hard location constraint for this candidate - open to relocation, remote, or hybrid.
+- Within commute range (NYC): PASS
+- Remote (US): PASS
+- Requires relocation: PASS (candidate is open to it - note it explicitly so they can weigh it)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +108,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Open to all three directions: Software Engineering, AI/Agentic Engineering, and Data Engineering
+- Prioritize work-life balance alongside technical growth
+- Prefer product-based companies and startups over highly process-heavy enterprises
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: New/ambiguous problems, greenfield builds, thinking outside the box, staying hands-on and in motion
+- Tasks that drain: Repetitive tasks, heavy documentation work
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Baseline salary expectation is $120,000/year
+- **Flexibility**: Open to relocation, remote, or hybrid — no location constraint
+- **Professional development**: Wants to grow into AI/agentic engineering and/or data engineering while maintaining strong work-life balance; values product-based/startup environments over rigid enterprise process
 
 ### 6. Salary Benchmark (Optional)
 

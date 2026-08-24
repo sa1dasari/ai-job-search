@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Sawan Dasari
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Sawan Dasari, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +10,88 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Sawan Dasari
+- **Location:** New York City, NY (open to relocation, remote, or hybrid - no location constraint)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | English | Fluent |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed (Software Engineer II, JPMorgan Chase), open to new opportunities. Work authorization: H-1B (transfer-eligible, no lottery required).
+- **LinkedIn headline:** "Software Engineer @ JPMorganChase | Java, Python, AWS"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **M.S. in Information Technology** (2022-2023) - University of Cincinnati
+  - GPA: 3.968
+  - Topics: Machine Learning & Data Mining, System Design, Principles of Cybersecurity, Advanced Storage Technologies, Advanced Algorithms
+- **B.Tech in Computer Science** (2017-2021) - BV Raju Institute of Technology (BVRIT)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer II** (Jul 2025 - Present) - **JPMorgan Chase** (New York, NY)
+  - Architected and deployed a cloud-native data platform from scratch on AWS (Step Functions, Glue, Athena, ECS) with Terraform, processing 10M+ records/day at 99.9% reliability
+  - Implemented a real-time CDC pipeline using CockroachDB changefeeds into a data lake and Snowflake with exactly-once delivery
+  - Designed RESTful APIs/microservices with Spring Boot and Java, reducing downstream data-access latency by 60%
+- **Software Engineer** (Jan 2024 - Jun 2025) - **State Street** (Boston, MA)
+  - Developed Spring Boot microservices for credit-decisioning workflows serving 5M+ requests/day
+  - Built real-time Kafka/Flink event pipelines with sub-second latency and exactly-once delivery
+  - Reduced processing latency by 40% through query tuning, caching, and parallelism improvements
+- **Teaching Assistant** (Jun 2022 - Aug 2023) - **University of Cincinnati** (Cincinnati, OH)
+  - Supported Machine Learning & Data Mining coursework: grading, student support, guidance on regression/classification/clustering
+- **Software Engineer** (Jun 2020 - Dec 2021) - **State Street** (Hyderabad, India)
+  - Built Java microservices and PostgreSQL schemas for investment-data reconciliation over 100M+ records
+  - Introduced Kafka-based event-driven data propagation and AWS Lambda batch jobs, cutting infrastructure cost ~30%
+
+Full role and project details, including all four merged CV variants: `.claude/skills/job-application-assistant/01-candidate-profile.md`.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Java, Python, Spring Boot, AWS (Glue, Step Functions, Lambda, ECS, EKS, Athena), Kafka, Flink, PySpark/ETL, Anthropic Claude API / agentic systems / MCP
+- **Secondary:** Kubernetes, Terraform, Snowflake, Jenkins, Spinnaker, Node.js/JavaScript, Docker
+- **Domain:** Fintech/investment banking (credit decisioning, investment-data reconciliation, cloud-native data platforms)
+- **Software:** CockroachDB, PostgreSQL, Cassandra, MongoDB, Datadog, Grafana, CloudWatch, Splunk, JUnit/Mockito
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Java (Intermediate) Certificate**
+- **Programming Essentials in Python**
+- **Problem Solving (Basic) Certificate**
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None yet. An applied-ML retraining-policy study is prepared for IEEE submission but not yet published - do not cite as a publication until accepted (see 01-candidate-profile.md).
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None on record.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Fast, calculated decision-making** - Moves quickly under ambiguity without being reckless
+- **Self-directed ownership** - Consistently takes projects from idea to production solo (WordForge, agent projects)
+- **Strengths:** Thrives on new challenges, staying hands-on and in motion, thinking outside the box; team player in collaboration
+- **Growth areas:** Repetitive tasks and heavy documentation work are draining, not motivating - seeks roles with a steady stream of new problems
+- **Thrives in:** Environments with new/ambiguous problems, high individual autonomy, product-based companies and startups over process-heavy enterprises
+
+Full behavioral profile: `.claude/skills/job-application-assistant/02-behavioral-profile.md`.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- New, ambiguous challenges and thinking outside the box
+- Greenfield/0-to-1 builds with high ownership and fast iteration
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Software/Backend Engineering: fintech, product-based tech companies
+- AI/Agentic Engineering: companies building or applying LLM-powered agents
+- Data Engineering: cloud-native data platforms
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None beyond work-life balance being a priority (heavy on-call/always-on cultures should be flagged, not auto-rejected)
+
+### Salary Baseline
+- $120,000/year (USD)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

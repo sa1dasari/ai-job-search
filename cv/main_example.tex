@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Sawan Dasari
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -33,7 +33,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Sawan Dasari - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -41,15 +41,14 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-% If you have no address to list, DELETE this whole line. \address{}{}{} fails
-% with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Sawan}{Dasari}
+\address{New York City, NY}{}{}
+\phone[mobile]{513-689-0708}
+\email{sawan.dasari@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/sawan-dasari/}{LinkedIn}, \href{https://github.com/sa1dasari}{GitHub}, \href{https://sa1dasari.github.io/}{Portfolio}}
 
 \begin{document}
 
@@ -60,7 +59,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Software Engineer with 4+ years building production backend and data systems in fintech (JPMorgan Chase, State Street), spanning cloud-native data platforms, distributed streaming pipelines, and Spring Boot microservices. Also ships AI-driven products end-to-end using the Anthropic Claude API and Model Context Protocol (MCP), and independently owns projects from architecture through deployment, including a live multiplayer platform and several deployed agents. This is a master reference; tailor this statement per role in \texttt{cv/main\_\textless{}company\textgreater{}\_\textless{}role\textgreater{}.tex} using the templates in \texttt{05-cv-templates.md}.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -70,15 +69,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend \& APIs}: Java, Spring Boot, REST APIs, microservices, event-driven architecture
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data Engineering}: Python, PySpark, ETL/ELT pipeline design, Snowflake, CDC ingestion, schema validation
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Streaming Systems}: Apache Kafka, Apache Flink, exactly-once delivery, sub-second latency pipelines
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Cloud \& Infrastructure}: AWS (Glue, Athena, Step Functions, Lambda, ECS, EKS), Kubernetes, Docker, Terraform
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{AI \& Agentic Systems}: Anthropic Claude API, Model Context Protocol (MCP), agentic system design, tool use/RAG
 
 \end{itemize}
 
@@ -91,31 +90,43 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2025-Present}{Software Engineer II}{JPMorgan Chase}{New York, NY}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item {Architected and deployed a cloud-native data platform from scratch on AWS (Step Functions, Glue, Athena, ECS) with Terraform, processing 10M+ records/day with 99.9\% reliability}
+    \item {Implemented a real-time change-data-capture pipeline using CockroachDB changefeeds into a data lake and Snowflake with exactly-once delivery}
+    \item {Designed RESTful APIs and microservices with Spring Boot and Java, reducing downstream data-access latency by 60\%}
+    \item {Built automated CI/CD pipelines (Jenkins, Docker), cutting deployment time by 70\% across DEV/UAT/PROD}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024-2025}{Software Engineer}{State Street}{Boston, MA}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item {Developed Spring Boot microservices for credit-decisioning workflows serving 5M+ requests/day}
+    \item {Built real-time Kafka/Flink event pipelines with sub-second latency and exactly-once delivery}
+    \item {Reduced processing latency by 40\% through query tuning, caching, and parallelism improvements}
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Jun 2022 - Aug 2023}{Teaching Assistant}{University of Cincinnati}{Cincinnati, OH}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item {Supported Machine Learning \& Data Mining coursework, guiding students through regression, classification, and clustering}
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Earlier Role ---
+\needspace{5\baselineskip}
+\item{\cventry{2020-2021}{Software Engineer}{State Street}{Hyderabad, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Built Java microservices and PostgreSQL schemas for investment-data reconciliation over 100M+ records}
+    \item {Introduced Kafka-based event-driven data propagation and AWS Lambda batch jobs, cutting infrastructure cost \textasciitilde{}30\%}
 \end{itemize}}}
 
 \end{itemize}
@@ -128,14 +139,13 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2022-2023}{M.S. in Information Technology}{University of Cincinnati}{Cincinnati, OH}{}{\vspace{1pt}
+GPA 3.968. Coursework: Machine Learning \& Data Mining, System Design, Principles of Cybersecurity, Advanced Storage Technologies, Advanced Algorithms.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2017-2021}{B.Tech in Computer Science}{BV Raju Institute of Technology (BVRIT)}{India}{}{\vspace{1pt}
 }}
 
 \end{itemize}
@@ -147,27 +157,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item {English (fluent).}
 \end{itemize}
 
 % ============================================================

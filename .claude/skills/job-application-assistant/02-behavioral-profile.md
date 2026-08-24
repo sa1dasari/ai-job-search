@@ -4,51 +4,51 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+<!-- Self-assessed via /setup interview questions (no formal assessment on file). -->
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Sawan's self-assessment identifies him as a **fast-moving problem-solver** pattern. He is energized by novel, ambiguous problems and staying in motion, makes calls quickly but with calculation rather than impulsively, and works well as part of a team.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Novelty-seeking | High | Prefers new challenges over repeating known work; drawn to 0-to-1 problems |
+| Pace / decisiveness | High | Makes decisions quickly, but calculated rather than reactive |
+| Autonomy | High | Track record of solo-owning projects end-to-end (WordForge, agent projects) |
+| Process/documentation tolerance | Low | Repetitive tasks and heavy documentation work are draining, not motivating |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Fast, calculated decision-making:** Moves quickly under ambiguity without being reckless — weighs the call, then acts.
+- **Self-directed ownership:** Consistently takes projects from idea to production solo (WordForge, Paper-to-Prototype Agent, NYC Running Events Agent), architecting and iterating without a team.
+- **Team player in delivery:** Collaborates well cross-functionally even while independently owning technical execution.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Environments with new, unsolved problems rather than steady-state maintenance
+- Roles that reward independent ownership and fast iteration
+- Teams where collaboration exists but individual technical autonomy is respected
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Documentation-heavy processes:** Frame as "prioritizes shipping and iteration speed, and works within teams/tools that keep documentation lightweight and current rather than treating it as a separate deliverable."
+- **Repetitive/maintenance-heavy work:** Frame as "seeks roles with a steady stream of new problems to solve, and has demonstrated this by consistently taking on greenfield builds (data platforms from scratch, new agent products) rather than gravitating toward maintenance work."
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "greenfield," "0-to-1," "own end-to-end," "fast-paced," "ambiguous problems," "startup," "new product," "high autonomy"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "heavy documentation," "process-driven," "maintenance of legacy systems," "highly regulated/slow-moving change process," "routine/repetitive operations"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Works well with managers who set clear goals and then give autonomy on execution
+- Would likely find close, prescriptive process oversight or documentation-first cultures a poor fit
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with examples of solo-owned, end-to-end builds (WordForge, agent projects, the JPMorgan data platform build) to demonstrate fast, self-directed execution.
+- **CV:** Emphasize ownership language ("architected from scratch," "owned end-to-end") over task-completion language.
+- **Interviews:** Use WordForge and the JPMorgan data-platform buildout as go-to examples for autonomy and fast decision-making questions.
+- **Don't overstate:** Do not claim formal people-management or team-lead experience — Sawan's ownership has been of technical scope and solo/individual-contributor projects, not direct reports.
+
+## Work-Life Balance & Motivation Note
+Work-life balance is a top priority in the next role, alongside exposure to new challenges. Weight company/team culture signals (on-call load, pace expectations, review culture) accordingly during job evaluation — see `04-job-evaluation.md`.

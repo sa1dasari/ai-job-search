@@ -39,6 +39,71 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+<!-- Extracted from CV/LinkedIn achievements by /setup Path A. Stubs only - fill in
+Situation/Task/Action/Result with your own recollection before using in an interview. -->
+
+### CockroachDB-to-Snowflake CDC pipeline at JPMorgan Chase
+**Source:** CV - Software Engineer II, JPMorgan Chase
+**What happened:** Built a change-data-capture pipeline using CockroachDB changefeeds to stream data into a lake and Snowflake with exactly-once delivery, now processing 10M+ records/day at 99.9% reliability.
+**Why it matters:** "Tell me about a system you designed from scratch," "How do you handle data consistency/reliability at scale?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Spring Boot API latency reduction at JPMorgan Chase
+**Source:** CV - Software Engineer II, JPMorgan Chase
+**What happened:** Designed RESTful APIs/microservices with Spring Boot and Java that cut downstream data-access latency by 60%.
+**Why it matters:** "Tell me about a performance problem you solved," "How do you approach optimization?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### CI/CD automation across DEV/UAT/PROD at JPMorgan Chase
+**Source:** CV - Software Engineer II, JPMorgan Chase
+**What happened:** Built automated CI/CD pipelines (Jenkins, Docker), cutting deployment time by 70% across environments.
+**Why it matters:** "Tell me about improving a team's engineering process," "How do you reduce operational toil?"
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Real-time Kafka/Flink pipeline at State Street (Boston)
+**Source:** CV - Software Engineer, State Street, Boston
+**What happened:** Built real-time event pipelines with Kafka and Flink for cross-system data synchronization with sub-second latency and exactly-once delivery, serving credit-decisioning workflows at 5M+ requests/day.
+**Why it matters:** "Tell me about a distributed systems challenge," "Describe on-call/production incident experience."
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### WordForge - solo-built multiplayer game platform
+**Source:** CV/LinkedIn - Independent Project
+**What happened:** Solo-designed, built, and operates a live real-time multiplayer word-game platform end-to-end (frontend, backend, database, auth), iterating directly against real user behavior post-launch.
+**Why it matters:** "Tell me about a project you owned end-to-end," "Describe working with total autonomy/ambiguity."
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### NYC Running Events Finder Agent - multi-source integration
+**Source:** CV - Independent Project
+**What happened:** Built an autonomous agent (Anthropic Managed Agents + Gmail MCP) integrating four independent, inconsistently structured external data sources into one deduplicated pipeline, running fully hands-off on a GitHub Actions cron.
+**Why it matters:** "Tell me about integrating messy/unreliable systems," "Describe a project using AI agents/tool use in production."
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

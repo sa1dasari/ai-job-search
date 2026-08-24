@@ -12,11 +12,13 @@ The `site:` query templates in this file are the **WebSearch fallback** — for 
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (US market job boards):
+- **indeed.com** - largest general US job board
+- **linkedin.com/jobs** - LinkedIn job listings (filter: United States / New York City); also covered by `linkedin-search` CLI
+- **builtin.com** - product/startup-focused board (matches preference for product companies and startups)
+- **wellfound.com** - startup-focused board (optional)
+
+Danish portal demos (Jobindex, Jobbank, Jobdanmark, Jobnet) ship disabled and are not relevant to this US-based search - left off.
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
@@ -27,54 +29,57 @@ Queries are grouped by priority. Write **each category in every language from yo
 
 **Organize by function, not job title.** The same underlying work carries different titles across companies and markets (a "Data Scientist" role at one employer may be posted as "Insights Analyst" or "Data Consultant" at another). Name each priority category after the function it covers, and list several plausible job titles as query variants within that category rather than betting an entire priority tier on one exact title string.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Software Engineering
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE_2]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE_1]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Core backend/software engineering roles - direct match to current and past job titles.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:indeed.com "Software Engineer" New York
+site:indeed.com "Backend Engineer" New York
+site:indeed.com "Software Engineer II" New York
+site:linkedin.com/jobs "Software Engineer" United States
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: AI / Agentic Engineering
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Roles building or applying LLM-powered agents - matches the Claude API/MCP project portfolio.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:indeed.com "AI Engineer" New York OR Remote
+site:indeed.com "Machine Learning Engineer" agentic OR LLM New York OR Remote
+site:indeed.com "Applied AI Engineer" New York OR Remote
+site:linkedin.com/jobs "AI Engineer" United States
+```
+
+### Priority 3: Data Engineering
+
+Roles matching the ETL/CDC/cloud data platform background at JPMorgan and State Street.
+
+```
+site:indeed.com "Data Engineer" New York OR Remote
+site:indeed.com "Data Platform Engineer" AWS OR Snowflake New York
+site:linkedin.com/jobs "Data Engineer" United States
+```
+
+### Priority 4: Broader / Adjacent
+
+Wider net for adjacent titles worth including given the ownership/client-facing project portfolio.
+
+```
+site:indeed.com "Forward Deployed Engineer" United States
+site:indeed.com "Full-Stack Engineer" New York OR Remote
+site:builtin.com "Software Engineer" OR "AI Engineer" OR "Data Engineer"
+site:wellfound.com "Software Engineer" OR "AI Engineer"
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+No hard location constraint - open to relocation, remote, or hybrid. Treat all of the following as acceptable:
+- New York City and surrounding areas (ideal - current base, no relocation needed)
+- Remote (US) (ideal)
+- Any other US metro area (acceptable - open to relocation)
+
+No location should be excluded on distance/commute grounds; location is not a Pass/Fail filter for this candidate.
 
 ## Language Filter
 
